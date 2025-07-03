@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+.cartas{
+    width: 270px;
+    height: 375px;
+    background-image: url(../media/Reverso.png);
+    background-size: cover;
+}
+
+
+.mesa{
+    width: 180px;
+    height: 250px;
+    background-size: cover;
+}
+
+#mesa{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#kpicas{
+    background-image: url(../media/KPICA.png);
+}
+
+#ascorazon:hover{
+    background-image: url(../media/AsCorazon.png);
+}
+
+#jpica{
+    background-image: url(../media/JPica.png);
+}
+
+#trebol5{
+    background-image: url(../media/5Trebol.png);
+}
+
+#diamante4{
+    background-image: url(../media/4Diamante.png);
+}
+
+#reverso:hover{
+    background-image: url(../media/QDiamante.png);
+}
+
+.mano{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aspica{
+    background-image: url(../media/AsPica.png);
+}
+
+#corazon3:hover{
+    background-image: url(../media/3corazon.png);
+}
+
+#diamante5:hover{
+    background-image: url(../media/5Diamante.png);
+}
+
+#trebol8:hover{
+    background-image: url(../media/8Trebol.png);
+}
+
+#trebol6:hover{
+    background-image: url(../media/6Trebol.png);
+}
+
+#diamante7:hover{
+    background-image: url(../media/7Diamante.png);
+}
+
+#corazon8:hover{
+    background-image: url(../media/8Corazon.png);
+}
+
+#pica9:hover{
+    background-image: url(../media/9Pica.png);
+}
+
+#table{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+footer{
+    padding: 50px;
+    background-color: #641E16;
+    color: #fff;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+}
